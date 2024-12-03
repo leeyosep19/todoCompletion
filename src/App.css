@@ -91,3 +91,57 @@ button{
   color: #ffffff;
   border:none;
 }
+
+
+
+
+/* ============회원가입 페이지 */
+.red-error{
+  color: red;
+}
+
+/* ========투두 페이지 */
+.todopage-title{
+  height:60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+}
+.calendar-box{
+  width: 1000px;
+  height: auto;
+  
+}
+.nullBox{
+  height: 60px;
+}
+
+/* 로그아웃버튼 */
+.todopage-title{
+  font-size: 50px;
+}
+.todopage-titleBox{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
+
+/* 선택된 날짜의 배경색을 변경 */
+.selected-date {
+  background-color: #a6cfeb !important; /* 노란색 배경 */
+  color: #000; /* 글자 색 변경 */
+  
+}
+
+
+
+.has-todo {
+  background-color: #ff6347; /* 붉은색 배경 */
+  color: white; /* 글자색을 흰색으로 변경 */
+  border-radius: 50%; /* 동그란 모양 */
+}
